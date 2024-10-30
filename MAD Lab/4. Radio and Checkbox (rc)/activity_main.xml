@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="195dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="59dp"
+        android:text="Department"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/department"
+        android:layout_width="170dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text">
+
+        <RadioButton
+            android:id="@+id/btech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Tech." />
+
+        <RadioButton
+            android:id="@+id/mtech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M Tech." />
+
+        <RadioButton
+            android:id="@+id/mca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MCA" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="191dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="36dp"
+        android:text="Events"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/department" />
+
+    <LinearLayout
+        android:id="@+id/events"
+        android:layout_width="173dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <CheckBox
+            android:id="@+id/football"
+            android:layout_width="173dp"
+            android:layout_height="48dp"
+            android:text="Football" />
+
+        <CheckBox
+            android:id="@+id/cricket"
+            android:layout_width="173dp"
+            android:layout_height="48dp"
+            android:text="Cricket" />
+
+        <CheckBox
+            android:id="@+id/basketball"
+            android:layout_width="173dp"
+            android:layout_height="48dp"
+            android:text="Basketball" />
+
+        <CheckBox
+            android:id="@+id/badminton"
+            android:layout_width="173dp"
+            android:layout_height="48dp"
+            android:text="Badminton" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="302dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="72dp"
+        android:text="Register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/events" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
