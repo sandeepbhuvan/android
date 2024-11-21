@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Department Text -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textSize="25sp"
+        android:layout_marginTop="24dp" />
+
+    <!-- RadioGroup for Departments -->
+    <RadioGroup
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/btech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B Tech." />
+
+        <RadioButton
+            android:id="@+id/mtech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M Tech." />
+
+        <RadioButton
+            android:id="@+id/mca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MCA" />
+    </RadioGroup>
+
+    <!-- Events Text -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events"
+        android:textSize="25sp"
+        android:layout_marginTop="24dp" />
+
+    <!-- Events CheckBoxes -->
+    <LinearLayout
+        android:id="@+id/events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <CheckBox
+            android:id="@+id/football"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Football" />
+
+        <CheckBox
+            android:id="@+id/cricket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cricket" />
+
+        <CheckBox
+            android:id="@+id/basketball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basketball" />
+
+        <CheckBox
+            android:id="@+id/badminton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badminton" />
+    </LinearLayout>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Register" />
+</LinearLayout>

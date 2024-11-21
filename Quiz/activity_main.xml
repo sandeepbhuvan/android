@@ -1,0 +1,89 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Question 1 -->
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the capital of France?" />
+
+    <CheckBox
+        android:id="@+id/answer1_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paris" />
+
+    <CheckBox
+        android:id="@+id/answer1_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="London" />
+
+    <CheckBox
+        android:id="@+id/answer1_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berlin" />
+
+    <!-- Question 2 -->
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which planet is known as the Red Planet?" />
+
+    <CheckBox
+        android:id="@+id/answer2_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mars" />
+
+    <CheckBox
+        android:id="@+id/answer2_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venus" />
+
+    <CheckBox
+        android:id="@+id/answer2_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jupiter" />
+
+    <!-- Question 3 -->
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the largest ocean on Earth?" />
+
+    <CheckBox
+        android:id="@+id/answer3_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atlantic Ocean" />
+
+    <CheckBox
+        android:id="@+id/answer3_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indian Ocean" />
+
+    <CheckBox
+        android:id="@+id/answer3_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pacific Ocean" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
